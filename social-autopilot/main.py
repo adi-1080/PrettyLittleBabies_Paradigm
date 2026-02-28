@@ -1,99 +1,79 @@
 """
 main.py — Entry Point for Social Life on Auto-Pilot
 
-Initialises the LangGraph pipeline with synthetic chat data
-and prints the final auto-pilot recommendations.
+Loads real WhatsApp JSON chat data, feeds it through the LangGraph
+pipeline, and prints behavioral fingerprints + auto-pilot recommendations.
 """
 
-from datetime import datetime, timedelta, timezone
+import json
+import os
+from pathlib import Path
 
-from state import ChatMessage
+from state import MessageModel
 from graph import app
 
 
-def create_sample_chat_log() -> list[ChatMessage]:
+# Path to the real chat data JSON
+CHAT_DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "chat_data.json"
+
+# Maximum messages to send through the pipeline (context window limit)
+MAX_MESSAGES = 200
+
+
+def load_chat_data(path: Path, max_messages: int = MAX_MESSAGES) -> list[MessageModel]:
     """
-    Generates a realistic synthetic chat log with three contacts
-    exhibiting different recency patterns.
+    Load and parse the WhatsApp JSON export into MessageModel objects.
+    Samples the most recent `max_messages` to stay within LLM context limits.
+
+    Args:
+        path: Path to the chat_data.json file.
+        max_messages: Maximum number of messages to process.
 
     Returns:
-        A list of ChatMessage objects.
+        A list of MessageModel objects.
     """
-    now = datetime.now(timezone.utc)
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-    return [
-        # ── Aarav — last messaged 2 days ago (healthy) ─────────────────
-        ChatMessage(
-            sender="Aarav",
-            content="Bro did you watch the F1 qualifying? Verstappen was insane!",
-            timestamp=now - timedelta(days=2, hours=5),
-        ),
-        ChatMessage(
-            sender="You",
-            content="Yeah! That last lap was unreal. Monaco is going to be epic.",
-            timestamp=now - timedelta(days=2, hours=4),
-        ),
-        ChatMessage(
-            sender="Aarav",
-            content="We should do a watch party for the race. I'll bring pizza 🍕",
-            timestamp=now - timedelta(days=2, hours=3),
-        ),
-        ChatMessage(
-            sender="You",
-            content="I'm in! Let's plan it this weekend.",
-            timestamp=now - timedelta(days=2, hours=2),
-        ),
+    raw_messages = data.get("messages", [])
 
-        # ── Priya — last messaged 12 days ago (decaying) ──────────────
-        ChatMessage(
-            sender="Priya",
-            content="Hey! I just got the offer from Google! 🎉",
-            timestamp=now - timedelta(days=12),
-        ),
-        ChatMessage(
-            sender="You",
-            content="WHAT! That's amazing, congrats!! We need to celebrate!",
-            timestamp=now - timedelta(days=12, hours=-1),
-        ),
-        ChatMessage(
-            sender="Priya",
-            content="Thanks! Let's plan something soon. Also, any recs for Bangalore?",
-            timestamp=now - timedelta(days=11),
-        ),
+    # Take the most recent messages for context
+    sampled = raw_messages[-max_messages:]
 
-        # ── Dev — last messaged 25 days ago (critical) ────────────────
-        ChatMessage(
-            sender="Dev",
-            content="Yo, you still into that Node.js side project?",
-            timestamp=now - timedelta(days=25),
-        ),
-        ChatMessage(
-            sender="You",
-            content="Yeah man, been stuck on the auth module. Wanna pair on it?",
-            timestamp=now - timedelta(days=25, hours=-2),
-        ),
-        ChatMessage(
-            sender="Dev",
-            content="Sure, I'll look at it this weekend and get back to you.",
-            timestamp=now - timedelta(days=24),
-        ),
-    ]
+    messages = [MessageModel(**m) for m in sampled]
+
+    print(f"📂  Loaded {len(raw_messages)} total messages from: {path.name}")
+    print(f"📨  Using most recent {len(messages)} messages for analysis.")
+
+    # Show participant info
+    participants = data.get("participants", [])
+    if participants:
+        names = ", ".join(p["name"] for p in participants)
+        print(f"👥  Participants: {names}")
+
+    return messages
 
 
 def main():
-    """Run the Social Autopilot pipeline end-to-end."""
+    """Run the Social Autopilot pipeline end-to-end with real chat data."""
     print("=" * 60)
     print("  🚀  SOCIAL LIFE ON AUTO-PILOT  🚀")
+    print("  🧬  Behavioral Fingerprinting Edition")
     print("=" * 60)
 
-    sample_messages = create_sample_chat_log()
+    if not CHAT_DATA_PATH.exists():
+        print(f"\n❌  Chat data not found at: {CHAT_DATA_PATH}")
+        print("   Place your exported chat JSON at that path and try again.")
+        return
 
-    print(f"\n📨  Loaded {len(sample_messages)} synthetic messages "
-          f"across {len({m.sender for m in sample_messages})} contacts.\n")
+    messages = load_chat_data(CHAT_DATA_PATH)
+
+    unique_senders = {m.sender_name for m in messages}
+    print(f"\n🔬  Analyzing {len(unique_senders)} unique participants...\n")
 
     # Invoke the LangGraph pipeline
     initial_state = {
-        "messages": sample_messages,
+        "messages": messages,
         "profiles": [],
         "alerts": [],
         "final_recommendations": [],
@@ -101,7 +81,28 @@ def main():
 
     result = app.invoke(initial_state)
 
-    # ── Final summary ─────────────────────────────────────────────────
+    # ── Behavioral Fingerprints ───────────────────────────────────────
+    print("\n" + "=" * 60)
+    print("  🧬  BEHAVIORAL FINGERPRINTS")
+    print("=" * 60)
+
+    for p in result["profiles"]:
+        print(f"\n  📋 {p.sender_name} ({p.sender_id})")
+        print(f"     Tone        : {p.sentiment_tone}")
+        print(f"     Formality   : {p.typing_style.formality_level}")
+        print(f"     Slang       : {'✅ Yes' if p.typing_style.use_of_slang else '❌ No'}")
+        print(f"     Emoji/msg   : {p.typing_style.emoji_density:.2f}")
+        print(f"     Avg words   : {p.typing_style.avg_word_count}")
+        print(f"     Punctuation : {p.typing_style.punctuation_style}")
+        print(f"     Jargon      : {', '.join(p.typing_style.jargon_used) or 'None'}")
+        print(f"     Latency     : {p.communication_patterns.reply_latency_seconds:.0f}s")
+        print(f"     Response    : {p.communication_patterns.responsiveness}")
+        print(f"     Init rate   : {p.communication_patterns.initiation_rate:.1%}")
+        print(f"     Peak hours  : {p.communication_patterns.peak_activity_hours}")
+        print(f"     Batch msg   : {'✅ Yes' if p.communication_patterns.batch_messaging else '❌ No'}")
+        print(f"     Topics      : {', '.join(p.top_topics)}")
+
+    # ── Final recommendations ─────────────────────────────────────────
     print("\n" + "=" * 60)
     print("  📋  FINAL AUTO-PILOT RECOMMENDATIONS")
     print("=" * 60)

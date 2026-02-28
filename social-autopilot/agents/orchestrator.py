@@ -2,7 +2,8 @@
 agents/orchestrator.py — Agent 3: The Orchestrator
 
 Generates personalised "social nudges" — ready-to-send message drafts
-based on the Strategist's decay alerts and the Historian's profiles.
+that match each contact's communication style, using behavioral
+fingerprints for tone-perfect message crafting.
 """
 
 import json
@@ -13,10 +14,12 @@ from state import AgentState, SocialNudge
 
 
 # ── System Prompt ──────────────────────────────────────────────────────────
-ORCHESTRATOR_SYSTEM_PROMPT = """You are **The Orchestrator** — a warm, witty social coach.
+ORCHESTRATOR_SYSTEM_PROMPT = """You are **The Orchestrator** — a warm, witty social coach who writes
+messages that sound EXACTLY like the user would naturally write.
 
 You will receive:
-1. Relational profiles for each contact (interests, sentiment, frequency).
+1. Behavioral Fingerprints for each participant (typing style, emoji
+   usage, formality, topics, sentiment).
 2. Decay alerts showing which relationships need attention and why.
 
 For EACH alert, craft a personalised **Social Nudge** and return a JSON
@@ -25,13 +28,19 @@ For EACH alert, craft a personalised **Social Nudge** and return a JSON
 - "contact_name"    : (str)  who to message.
 - "nudge_type"      : (str)  one of "Follow-up", "Check-in", "Meme-share",
                               "Deep-catch-up", or "Congratulate".
-- "generated_draft" : (str)  the actual message text — casual, natural,
-                              and personalised to the contact's interests.
-- "rationale"       : (str)  brief explanation of why this nudge was chosen.
+- "generated_draft" : (str)  the actual message text — it MUST match the
+                              user's typical typing style:
+                              * If they use slang → use slang.
+                              * If they use emojis → include emojis.
+                              * If they're formal → keep it formal.
+                              * Reference shared topics from the profile.
+- "rationale"       : (str)  brief explanation referencing specific
+                              behavioral traits that informed this nudge.
 
 Guidelines:
-- Match the tone to the relationship (professional vs. casual).
-- Reference specific shared interests from the profile.
+- The draft should feel like the user writing, not a robot.
+- Reference specific shared interests from top_topics.
+- If the contact has high initiation_rate, acknowledge their effort.
 - Keep messages under 280 characters when possible.
 - Prioritise contacts with higher decay scores.
 
@@ -59,7 +68,7 @@ def orchestrator_node(state: AgentState) -> dict:
     response = llm.invoke([
         SystemMessage(content=ORCHESTRATOR_SYSTEM_PROMPT),
         HumanMessage(content=(
-            f"Relational Profiles:\n{profiles_json}\n\n"
+            f"Behavioral Fingerprints:\n{profiles_json}\n\n"
             f"Decay Alerts:\n{alerts_json}"
         )),
     ])
