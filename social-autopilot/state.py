@@ -1,8 +1,8 @@
 """
 state.py — Pydantic Models & LangGraph State
 
-Defines the core data models for the Social Autopilot pipeline
-with deep Behavioral Fingerprinting capabilities.
+Core data models for the Social Autopilot pipeline with
+Value Mapping, Anomaly Detection, and Digital Twin support.
 """
 
 from __future__ import annotations
@@ -17,8 +17,6 @@ from pydantic import BaseModel, Field
 # 1. MessageModel — maps 1:1 to the JSON chat export
 # ---------------------------------------------------------------------------
 class MessageModel(BaseModel):
-    """A single message from an exported WhatsApp/Discord JSON log."""
-
     id: str
     sender_id: str
     sender_name: str
@@ -29,137 +27,101 @@ class MessageModel(BaseModel):
 
 
 # ---------------------------------------------------------------------------
-# 2. TypingStyle — linguistic traits per participant
+# 2. TypingStyle — linguistic traits
 # ---------------------------------------------------------------------------
 class TypingStyle(BaseModel):
-    """Captures *how* someone types — their linguistic fingerprint."""
-
-    emoji_density: float = Field(
-        ge=0.0,
-        description="Average emoji count per message.",
-    )
-    avg_word_count: int = Field(
-        ge=0,
-        description="Average number of words per message.",
-    )
-    formality_level: str = Field(
-        description="One of 'Formal', 'Semi-formal', 'Casual', 'Very Casual'.",
-    )
-    use_of_slang: bool = Field(
-        description="Whether the participant frequently uses slang.",
-    )
-    punctuation_style: str = Field(
-        description="E.g. 'Minimalist', 'Excessive exclamation marks', 'Formal'.",
-    )
-    jargon_used: List[str] = Field(
-        default_factory=list,
-        description="Technical or niche terms identified.",
-    )
+    emoji_density: float = Field(ge=0.0, description="Average emoji count per message.")
+    avg_word_count: int = Field(ge=0, description="Average words per message.")
+    formality_level: str = Field(description="Formal / Semi-formal / Casual / Very Casual.")
+    use_of_slang: bool = Field(description="Frequently uses slang.")
+    punctuation_style: str = Field(description="e.g. Minimalist, Excessive exclamation, Formal.")
+    jargon_used: List[str] = Field(default_factory=list, description="Niche terms identified.")
 
 
 # ---------------------------------------------------------------------------
-# 3. CommunicationPatterns — behavioral timing traits
+# 3. Anomaly — deterministic deviation detected in code
 # ---------------------------------------------------------------------------
-class CommunicationPatterns(BaseModel):
-    """Captures *when* and *how fast* someone communicates."""
-
-    reply_latency_seconds: float = Field(
-        ge=0.0,
-        description="Average reply latency in seconds.",
-    )
-    peak_activity_hours: List[int] = Field(
-        default_factory=list,
-        description="Peak hours of communication (0–23).",
-    )
-    initiation_rate: float = Field(
-        ge=0.0,
-        le=1.0,
-        description="How often this person starts conversations (0.0–1.0).",
-    )
-    responsiveness: str = Field(
-        description="E.g. 'Immediate', 'Deep Thinker (slow)', 'Batch Replier'.",
-    )
-    batch_messaging: bool = Field(
-        description="True if the participant sends multiple messages in rapid succession.",
-    )
+class Anomaly(BaseModel):
+    metric: str = Field(description="Which metric deviated, e.g. 'reply_latency'.")
+    baseline: float = Field(description="Historical baseline value.")
+    current: float = Field(description="Value in the current window.")
+    deviation_factor: float = Field(description="current / baseline ratio.")
+    description: str = Field(description="Human-readable anomaly summary.")
 
 
 # ---------------------------------------------------------------------------
-# 4. ParticipantProfile — master container per participant
+# 4. BehavioralDNA — replaces old ParticipantProfile
 # ---------------------------------------------------------------------------
-class ParticipantProfile(BaseModel):
-    """
-    Complete behavioral fingerprint for a single chat participant.
-    Output of Agent 1 (The Historian / Research Agent).
-    """
-
-    sender_id: str
-    sender_name: str
+class BehavioralDNA(BaseModel):
+    contact_name: str
+    contact_id: str
+    vibe_description: str = Field(description="Baseline tone: sarcasm, support, emotional sharing, etc.")
+    reciprocity_ratio: float = Field(
+        ge=0.0, le=1.0,
+        description="0.0 = they never initiate, 1.0 = they always initiate.",
+    )
+    avg_latency: float = Field(ge=0.0, description="Average reply latency in seconds.")
+    core_topics: List[str] = Field(default_factory=list, description="Up to 5 value anchors.")
+    comm_style: str = Field(description="Batcher (sends bursts) or Streamer (steady flow).")
     typing_style: TypingStyle
-    communication_patterns: CommunicationPatterns
-    sentiment_tone: str = Field(
-        description="General tone, e.g. 'Enthusiastic', 'Sarcastic', 'Brief & curt'.",
-    )
-    top_topics: List[str] = Field(
-        default_factory=list,
-        description="Up to 5 recurring conversation themes.",
-    )
+    peak_activity_hours: List[int] = Field(default_factory=list, description="Peak hours 0-23.")
+    anomalies: List[Anomaly] = Field(default_factory=list, description="Detected deviations.")
 
 
 # ---------------------------------------------------------------------------
-# 5. RelationshipDecay — output of the Strategist agent
+# 5. StrategyVerdict — replaces old RelationshipDecay
 # ---------------------------------------------------------------------------
-class RelationshipDecay(BaseModel):
-    """
-    Decision-logic model that converts the Historian's profile
-    into an actionable alert about relationship health.
-    """
-
+class StrategyVerdict(BaseModel):
     contact_name: str
-    decay_score: int = Field(
-        ge=0,
-        le=100,
-        description="0 = Best Friends, 100 = Ghosted.",
-    )
-    risk_factor: str = Field(
-        description="Reason for the score, e.g. '90% deviation from usual vibe'.",
-    )
-    is_priority: bool = Field(
-        description="True when the user should be notified urgently.",
-    )
+    state: str = Field(description="Active / Stagnant / Debt.")
+    debt_type: str = Field(description="None / Shallow (meme/statement) / Deep (question asked).")
+    priority: int = Field(ge=1, le=10, description="1 = low, 10 = critical.")
+    recommended_action: str = Field(description="Reaction / Nudge / Deep_Reply.")
+    sentiment_drift: str = Field(description="Warmer / Stable / Colder vs baseline.")
+    anomalies: List[str] = Field(default_factory=list, description="Anomaly summaries forwarded from DNA.")
+    reasoning: str = Field(description="Detailed human-readable justification.")
 
 
 # ---------------------------------------------------------------------------
-# 6. SocialNudge — output of the Orchestrator agent
+# 6. ProposedAction — replaces old SocialNudge
 # ---------------------------------------------------------------------------
-class SocialNudge(BaseModel):
-    """
-    A ready-to-send action item for the user.
-    The 'Human-in-the-Loop' layer that reduces cognitive load.
-    """
-
+class ProposedAction(BaseModel):
     contact_name: str
-    nudge_type: str = Field(
-        description="E.g. 'Follow-up', 'Check-in', or 'Meme-share'.",
-    )
-    generated_draft: str = Field(
-        description="AI-written message text ready to send.",
-    )
-    rationale: str = Field(
-        description="Why the AI wrote this, e.g. 'They mentioned a job interview'.",
-    )
+    action_type: str = Field(description="Reaction / Nudge / Deep_Reply.")
+    quick_copy: str = Field(description="The emoji, short nudge text, or full reply to copy-paste.")
+    rationale: str = Field(description="Why this action, referencing behavioral traits.")
 
 
 # ---------------------------------------------------------------------------
-# 7. AgentState — the global LangGraph state
+# Wrapper models for structured LLM output (lists)
+# ---------------------------------------------------------------------------
+class StrategyVerdictList(BaseModel):
+    verdicts: List[StrategyVerdict]
+
+
+class ProposedActionList(BaseModel):
+    actions: List[ProposedAction]
+
+
+# ---------------------------------------------------------------------------
+# 7. FeedbackEntry — user Accept / Reject / Edit per action
+# ---------------------------------------------------------------------------
+class FeedbackEntry(BaseModel):
+    contact_name: str
+    action_type: str
+    decision: str = Field(description="Accepted / Rejected / Edited.")
+    edited_text: Optional[str] = Field(default=None, description="User's edited version if Edited.")
+    timestamp: datetime = Field(default_factory=datetime.now)
+
+
+# ---------------------------------------------------------------------------
+# 8. AgentState — the global LangGraph state
 # ---------------------------------------------------------------------------
 class AgentState(TypedDict):
-    """
-    Global state that flows through the LangGraph pipeline.
-    Each node reads and updates the relevant keys.
-    """
-
     messages: List[MessageModel]
-    profiles: List[ParticipantProfile]
-    alerts: List[RelationshipDecay]
-    final_recommendations: List[SocialNudge]
+    owner_profile: Optional[BehavioralDNA]
+    profiles: List[BehavioralDNA]
+    previous_profiles: List[BehavioralDNA]
+    feedback_history: List[FeedbackEntry]
+    verdicts: List[StrategyVerdict]
+    actions: List[ProposedAction]

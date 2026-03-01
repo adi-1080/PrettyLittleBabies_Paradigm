@@ -30,17 +30,6 @@
       "metadata": {}
     },
     {
-      "id": "m3",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-02-13T23:08:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m4",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -120,39 +109,6 @@
       "content": "aakarashit tera wo experiment 4 5 6 bhej na",
       "timestamp": "2024-03-05T07:48:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m13",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-03-05T07:52:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m14",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-03-05T07:52:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m15",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-03-05T07:52:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m16",
@@ -524,28 +480,6 @@
       "metadata": {}
     },
     {
-      "id": "m57",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-04-19T22:51:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m58",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-04-19T22:51:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m59",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -762,17 +696,6 @@
       "metadata": {}
     },
     {
-      "id": "m83",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-04-20T20:37:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m84",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -829,17 +752,6 @@
       "content": "sorry lmao 10 chaiye tha wo 9 galti se likh diya",
       "timestamp": "2024-04-20T20:41:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m90",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-04-20T20:49:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m91",
@@ -1015,17 +927,6 @@
       "metadata": {}
     },
     {
-      "id": "m110",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-06T14:00:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m111",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -1033,17 +934,6 @@
       "content": "yeh dekh kaisa hai?",
       "timestamp": "2024-09-06T14:00:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m112",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-06T14:01:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m113",
@@ -1154,17 +1044,6 @@
       "metadata": {}
     },
     {
-      "id": "m125",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-06T14:26:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m126",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -1172,17 +1051,6 @@
       "content": "abhi yehi hua hai",
       "timestamp": "2024-09-06T14:27:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m127",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-06T14:31:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m128",
@@ -1230,28 +1098,6 @@
       "metadata": {}
     },
     {
-      "id": "m133",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-10T14:12:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m134",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-10T14:12:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m135",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -1277,17 +1123,6 @@
       "content": "Ok thnx",
       "timestamp": "2024-09-10T14:12:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m138",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-10T14:32:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m139",
@@ -1371,15 +1206,6 @@
       "metadata": {}
     },
     {
-      "id": "m148",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-11T11:11:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m149",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -1422,15 +1248,6 @@
       "role": "user",
       "content": "😂",
       "timestamp": "2024-09-11T18:49:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m154",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-11T18:50:00Z",
       "metadata": {}
     },
     {
@@ -1598,30 +1415,12 @@
       "metadata": {}
     },
     {
-      "id": "m173",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-15T17:41:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m174",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
       "role": "user",
       "content": "Tera call aaya tha...",
       "timestamp": "2024-09-15T19:14:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m175",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-15T19:16:00Z",
       "metadata": {}
     },
     {
@@ -1640,15 +1439,6 @@
       "role": "user",
       "content": "Ispe likhna hai theory",
       "timestamp": "2024-09-15T19:18:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m178",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-16T10:39:00Z",
       "metadata": {}
     },
     {
@@ -1679,15 +1469,6 @@
       "metadata": {}
     },
     {
-      "id": "m182",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-17T14:21:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m183",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -1713,28 +1494,6 @@
       "content": "Ok",
       "timestamp": "2024-09-20T08:30:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m186",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-20T08:31:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m187",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-20T08:31:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m188",
@@ -1892,17 +1651,6 @@
       }
     },
     {
-      "id": "m205",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-20T08:55:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m206",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -1928,17 +1676,6 @@
       "content": "ok",
       "timestamp": "2024-09-20T08:57:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m209",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-20T08:57:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m210",
@@ -2013,39 +1750,6 @@
       "metadata": {}
     },
     {
-      "id": "m218",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-21T23:00:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m219",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-21T23:01:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m220",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-21T23:02:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m221",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -2089,17 +1793,6 @@
       "content": "bhai ss bhejiyo tujhe kaisa dikh raha hai front page?",
       "timestamp": "2024-09-22T01:48:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m226",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-22T01:49:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m227",
@@ -2318,17 +2011,6 @@
       "metadata": {}
     },
     {
-      "id": "m251",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-09-22T02:22:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m252",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -2383,17 +2065,6 @@
       "metadata": {}
     },
     {
-      "id": "m258",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-01T11:41:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m259",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -2446,39 +2117,6 @@
       "content": "student wale ka",
       "timestamp": "2024-10-04T01:18:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m265",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-04T01:22:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m266",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-04T01:22:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m267",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-05T01:46:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m268",
@@ -2555,28 +2193,6 @@
       "metadata": {}
     },
     {
-      "id": "m276",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-06T13:47:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m277",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-06T13:47:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m278",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -2619,15 +2235,6 @@
       "role": "user",
       "content": "Ha chalega usko bus bolde kardega combine",
       "timestamp": "2024-10-06T13:57:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m283",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-07T17:23:00Z",
       "metadata": {}
     },
     {
@@ -2730,17 +2337,6 @@
       "metadata": {}
     },
     {
-      "id": "m295",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-08T23:07:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m296",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -2757,17 +2353,6 @@
       "content": "poora ss bhejna",
       "timestamp": "2024-10-08T23:23:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m298",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-08T23:23:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m299",
@@ -2885,17 +2470,6 @@
       "content": "yeppp",
       "timestamp": "2024-10-13T19:39:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m312",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-13T21:59:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m313",
@@ -3213,15 +2787,6 @@
       "metadata": {}
     },
     {
-      "id": "m348",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-19T18:18:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m349",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -3429,39 +2994,6 @@
       "metadata": {}
     },
     {
-      "id": "m372",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T12:52:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m373",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T12:53:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m374",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T12:54:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m375",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -3469,17 +3001,6 @@
       "content": "apne product info ka ss bhejde na ek baar",
       "timestamp": "2024-10-20T12:58:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m376",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T12:58:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m377",
@@ -3518,17 +3039,6 @@
       "metadata": {}
     },
     {
-      "id": "m381",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T13:24:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m382",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -3547,28 +3057,6 @@
       "metadata": {}
     },
     {
-      "id": "m384",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T13:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m385",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T13:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m386",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -3578,39 +3066,6 @@
       "metadata": {}
     },
     {
-      "id": "m387",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T13:58:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m388",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T13:58:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m389",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T14:08:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m390",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -3618,17 +3073,6 @@
       "content": "SICK",
       "timestamp": "2024-10-20T14:08:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m391",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-20T14:13:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m392",
@@ -3865,28 +3309,6 @@
       "metadata": {}
     },
     {
-      "id": "m418",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-26T00:55:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m419",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-26T00:55:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m420",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -3894,17 +3316,6 @@
       "content": "import path from \"path\"\nimport react from \"@vitejs/plugin-react\"\nimport { defineConfig } from \"vite\"\nexport default defineConfig({\n  plugins: [react()],\n  resolve: {\n    alias: {\n      \"@\": path.resolve(__dirname, \"./src\"),\n    },\n  },\n})",
       "timestamp": "2024-10-26T00:57:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m421",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-10-26T01:03:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m422",
@@ -3950,39 +3361,6 @@
       "content": "aatmaj",
       "timestamp": "2024-10-26T01:05:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m427",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-05T14:09:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m428",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-05T14:09:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m429",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-05T14:09:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m430",
@@ -4039,39 +3417,6 @@
       "metadata": {}
     },
     {
-      "id": "m436",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-08T01:40:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m437",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-08T01:40:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m438",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-08T01:41:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m439",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -4090,17 +3435,6 @@
       "metadata": {}
     },
     {
-      "id": "m441",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-08T01:41:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m442",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -4117,50 +3451,6 @@
       "content": "Ha wohi",
       "timestamp": "2024-11-08T01:41:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m444",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-08T01:42:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m445",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-08T01:42:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m446",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-08T01:43:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m447",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-08T01:43:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m448",
@@ -4595,50 +3885,6 @@
       "metadata": {}
     },
     {
-      "id": "m496",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-18T14:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m497",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-18T14:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m498",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-18T14:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m499",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-18T14:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m500",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -4646,17 +3892,6 @@
       "content": "bhai us group pe acknowledge karde whenever free",
       "timestamp": "2024-11-19T14:12:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m501",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-19T14:17:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m502",
@@ -4684,138 +3919,6 @@
       "content": "LEGO's Design Thinking Transformation\nWhen: Early 2000s\nChallenge:\nLEGO faced a significant crisis, with declining sales and revenue. The problem stemmed from the company overcomplicating its product lines by introducing too many sets with specialized pieces, which alienated its core audience—children. Additionally, the growing popularity of video games and other tech-based entertainment posed a serious threat to its traditional toys.\nInsight:\nAfter rethinking their approach, LEGO's team embraced Design Thinking principles to reconnect with their users. They conducted extensive research and discovered that children and parents valued creative freedom and open-ended play, which the original LEGO blocks offered.\nSolution:\nLEGO simplified its product offerings by returning to its roots—classic, versatile bricks. They also introduced LEGO Mindstorms, combining play with technology to attract a tech-savvy generation.\nImpact:\nThis user-focused pivot revitalized LEGO's brand, turning it into one of the world's most beloved toy companies, with record-breaking profits and a strong cultural presence.",
       "timestamp": "2024-11-21T22:23:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m505",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-21T22:27:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m506",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:07:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m507",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:07:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m508",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:07:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m509",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:07:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m510",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:07:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m511",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:08:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m512",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:08:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m513",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:08:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m514",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:08:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m515",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T14:08:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m516",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-22T18:18:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m517",
@@ -4852,17 +3955,6 @@
       "content": "pls",
       "timestamp": "2024-11-22T23:09:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m521",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-23T06:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m522",
@@ -5171,15 +4263,6 @@
       "metadata": {}
     },
     {
-      "id": "m556",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-11-29T12:44:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m557",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -5250,17 +4333,6 @@
       "content": "do while and exit wala loop",
       "timestamp": "2024-12-06T17:55:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m565",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-06T17:57:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m566",
@@ -5389,17 +4461,6 @@
       "metadata": {}
     },
     {
-      "id": "m580",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-13T06:39:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m581",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -5517,17 +4578,6 @@
       "metadata": {}
     },
     {
-      "id": "m594",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-13T11:26:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m595",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -5571,17 +4621,6 @@
       "content": "also bhai",
       "timestamp": "2024-12-23T07:02:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m600",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-23T07:02:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m601",
@@ -5737,17 +4776,6 @@
       "metadata": {}
     },
     {
-      "id": "m618",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-24T17:43:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m619",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -5791,17 +4819,6 @@
       "content": "👍",
       "timestamp": "2024-12-24T17:52:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m624",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-24T17:53:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m625",
@@ -6193,17 +5210,6 @@
       "metadata": {}
     },
     {
-      "id": "m668",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-27T19:20:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m669",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -6211,17 +5217,6 @@
       "content": "mere me woh bhi nhi dikh raha h... ek baar poora screen ka SS bhej",
       "timestamp": "2024-12-27T19:20:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m670",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-27T19:21:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m671",
@@ -6357,28 +5352,6 @@
       "content": "ok",
       "timestamp": "2024-12-27T19:31:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m686",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-27T19:32:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m687",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-27T19:32:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m688",
@@ -6633,28 +5606,6 @@
       "metadata": {}
     },
     {
-      "id": "m716",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-27T19:46:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m717",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-27T19:46:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m718",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -6689,17 +5640,6 @@
       "content": "toh rukja thoda",
       "timestamp": "2024-12-28T21:53:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m722",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2024-12-28T22:32:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m723",
@@ -7098,17 +6038,6 @@
       "metadata": {}
     },
     {
-      "id": "m767",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-04T17:44:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m768",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -7125,17 +6054,6 @@
       "content": "gsap se kiya",
       "timestamp": "2025-01-04T17:44:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m770",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-04T17:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m771",
@@ -7455,15 +6373,6 @@
       "metadata": {}
     },
     {
-      "id": "m806",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-08T12:37:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m807",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -7480,17 +6389,6 @@
       "content": "routing ka issue solve ho gaya 🥳🥳😭😭😭🥳🥳",
       "timestamp": "2025-01-08T13:28:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m809",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-08T13:28:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m810",
@@ -8035,15 +6933,6 @@
       "metadata": {}
     },
     {
-      "id": "m870",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-11T19:45:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m871",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -8206,17 +7095,6 @@
       "metadata": {}
     },
     {
-      "id": "m889",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-12T01:48:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m890",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -8271,17 +7149,6 @@
       "metadata": {}
     },
     {
-      "id": "m896",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-12T02:03:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m897",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -8334,28 +7201,6 @@
       "content": "Figma ke wo section ka",
       "timestamp": "2025-01-12T02:12:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m903",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-12T02:12:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m904",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-12T02:12:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m905",
@@ -8871,17 +7716,6 @@
       "metadata": {}
     },
     {
-      "id": "m962",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-12T16:43:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m963",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -9152,17 +7986,6 @@
       "content": "You deleted this message",
       "timestamp": "2025-01-12T17:28:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m993",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-12T17:29:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m994",
@@ -9905,17 +8728,6 @@
       "metadata": {}
     },
     {
-      "id": "m1076",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-17T19:43:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1077",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -9986,37 +8798,6 @@
       "content": "https://mk19dqtj-5173.inc1.devtunnels.ms/",
       "timestamp": "2025-01-17T19:50:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1085",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-18T12:33:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1086",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-18T15:10:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1087",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-18T15:10:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1088",
@@ -10143,17 +8924,6 @@
       "content": "Ok",
       "timestamp": "2025-01-21T23:59:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1102",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-26T18:55:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1103",
@@ -10896,17 +9666,6 @@
       "metadata": {}
     },
     {
-      "id": "m1185",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-29T18:46:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1186",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -10916,17 +9675,6 @@
       "metadata": {}
     },
     {
-      "id": "m1187",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-29T18:47:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1188",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -10934,17 +9682,6 @@
       "content": "Or",
       "timestamp": "2025-01-29T18:47:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1189",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-29T18:47:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1190",
@@ -10972,17 +9709,6 @@
       "content": "oyi",
       "timestamp": "2025-01-30T13:01:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1193",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-30T13:02:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1194",
@@ -11028,50 +9754,6 @@
       "content": "23001356134",
       "timestamp": "2025-01-30T13:11:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1199",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-30T13:22:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1200",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-30T13:30:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1201",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-30T13:31:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1202",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-01-30T14:33:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1203",
@@ -11479,17 +10161,6 @@
       "metadata": {}
     },
     {
-      "id": "m1248",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-03T12:16:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1249",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -11497,17 +10168,6 @@
       "content": "https://www.youtube.com/live/EZozcWWNMls?feature=shared",
       "timestamp": "2025-02-03T15:54:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1250",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-03T15:55:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1251",
@@ -11683,17 +10343,6 @@
       "metadata": {}
     },
     {
-      "id": "m1270",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-03T16:54:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1271",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -11710,17 +10359,6 @@
       "content": "ha coz already hai .env",
       "timestamp": "2025-02-03T16:54:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1273",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-03T16:54:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1274",
@@ -11820,17 +10458,6 @@
       "content": "🤣",
       "timestamp": "2025-02-03T16:56:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1285",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-03T17:03:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1286",
@@ -11939,17 +10566,6 @@
       "content": "https://prod.liveshare.vsengsaas.visualstudio.com/join?17875BE1E1AFEAE986207DC74E29C2BF05E8",
       "timestamp": "2025-02-03T22:51:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1298",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-03T22:52:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1299",
@@ -12078,15 +10694,6 @@
       "metadata": {}
     },
     {
-      "id": "m1313",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-03T23:09:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m1314",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -12130,17 +10737,6 @@
       "content": "https://mk19dqtj-5173.inc1.devtunnels.ms/",
       "timestamp": "2025-02-03T23:48:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1319",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-03T23:49:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1320",
@@ -12593,17 +11189,6 @@
       "metadata": {}
     },
     {
-      "id": "m1370",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-07T23:12:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1371",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -12629,28 +11214,6 @@
       "content": "😂",
       "timestamp": "2025-02-07T23:12:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1374",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-07T23:13:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1375",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-07T23:13:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1376",
@@ -12867,50 +11430,6 @@
       "content": "To join the meeting on Google Meet, click this link: \nhttps://meet.google.com/moz-itog-nkj \nOr open Meet and enter this code: moz-itog-nkj",
       "timestamp": "2025-02-09T22:01:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1400",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-09T22:02:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1401",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-09T23:09:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1402",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-09T23:12:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1403",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-09T23:20:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1404",
@@ -13372,15 +11891,6 @@
       "metadata": {}
     },
     {
-      "id": "m1455",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-10T19:05:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m1456",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -13680,17 +12190,6 @@
       "metadata": {}
     },
     {
-      "id": "m1489",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-13T21:15:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1490",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -13716,17 +12215,6 @@
       "content": "tu 1st 2nd 3rd isko bhi draw karne waala h kya?",
       "timestamp": "2025-02-13T22:05:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1493",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-13T22:05:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1494",
@@ -13808,17 +12296,6 @@
       "content": "https://meet.google.com/afe-rpek-xpu",
       "timestamp": "2025-02-14T00:01:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1503",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-14T20:27:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1504",
@@ -13958,17 +12435,6 @@
       "metadata": {}
     },
     {
-      "id": "m1519",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-17T20:26:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1520",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -13996,28 +12462,6 @@
       "metadata": {}
     },
     {
-      "id": "m1523",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-17T23:39:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1524",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-17T23:39:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1525",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -14034,28 +12478,6 @@
       "content": "https://prod.liveshare.vsengsaas.visualstudio.com/join?BC4A19893A3E7D7342A82B515A77CA36DA56",
       "timestamp": "2025-02-18T01:48:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1527",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-18T02:07:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1528",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-18T02:09:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1529",
@@ -14148,17 +12570,6 @@
       "metadata": {}
     },
     {
-      "id": "m1539",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-18T19:56:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1540",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -14175,17 +12586,6 @@
       "content": "Aa meet pe synapse wali",
       "timestamp": "2025-02-18T20:19:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1542",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-18T23:28:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1543",
@@ -14231,17 +12631,6 @@
       "content": "thank you bhai",
       "timestamp": "2025-02-19T11:04:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1548",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T11:13:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1549",
@@ -14325,17 +12714,6 @@
       "metadata": {}
     },
     {
-      "id": "m1558",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T11:24:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1559",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -14417,26 +12795,6 @@
       "metadata": {}
     },
     {
-      "id": "m1568",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T11:33:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1569",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T11:41:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1570",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -14462,17 +12820,6 @@
       "content": "ha",
       "timestamp": "2025-02-19T11:43:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1573",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T11:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1574",
@@ -14556,61 +12903,6 @@
       "metadata": {}
     },
     {
-      "id": "m1583",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T19:48:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1584",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T19:48:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1585",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T19:49:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1586",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T19:49:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1587",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-19T19:49:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1588",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -14661,15 +12953,6 @@
       "sender_name": "Anupam",
       "role": "user",
       "content": "Bhai",
-      "timestamp": "2025-02-20T22:31:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1594",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
       "timestamp": "2025-02-20T22:31:00Z",
       "metadata": {}
     },
@@ -14827,59 +13110,6 @@
       "metadata": {}
     },
     {
-      "id": "m1612",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:19:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1613",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:19:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1614",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:19:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1615",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:19:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1616",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:19:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1617",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -14916,81 +13146,6 @@
       "metadata": {}
     },
     {
-      "id": "m1621",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:50:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1622",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:50:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1623",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:50:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1624",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:50:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1625",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:50:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1626",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:50:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1627",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T03:50:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1628",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -15016,44 +13171,6 @@
       "content": "Kaha hai?",
       "timestamp": "2025-02-21T07:37:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1631",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T07:38:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1632",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T07:41:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1633",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T07:52:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1634",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-21T08:22:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1635",
@@ -15236,17 +13353,6 @@
       "metadata": {}
     },
     {
-      "id": "m1655",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-22T22:05:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1656",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -15271,15 +13377,6 @@
       "role": "user",
       "content": "Wtf is this 😂😭",
       "timestamp": "2025-02-22T22:06:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1659",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-25T20:13:00Z",
       "metadata": {}
     },
     {
@@ -15454,17 +13551,6 @@
       "metadata": {}
     },
     {
-      "id": "m1679",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-26T19:00:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1680",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -15472,17 +13558,6 @@
       "content": "Aaya kuch backend me?",
       "timestamp": "2025-02-26T19:04:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1681",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-02-26T19:06:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1682",
@@ -16722,17 +14797,6 @@
       "metadata": {}
     },
     {
-      "id": "m1819",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-01T22:47:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1820",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -16749,28 +14813,6 @@
       "content": "https://meet.google.com/jrk-ogtd-pym",
       "timestamp": "2025-03-02T18:04:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1822",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-02T20:52:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1823",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-02T20:52:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1824",
@@ -16796,15 +14838,6 @@
       "sender_name": "Aakarshit",
       "role": "user",
       "content": "How I create something like in first image using react js and tailwind css, don't give me the approach just give me the approach. On clicking the left most image in image 1 it is getting expanded as in image 2, so give me an approach where it is easy to do this.",
-      "timestamp": "2025-03-02T20:53:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1827",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
       "timestamp": "2025-03-02T20:53:00Z",
       "metadata": {}
     },
@@ -17191,17 +15224,6 @@
       "metadata": {}
     },
     {
-      "id": "m1870",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-02T23:07:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1871",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -17218,17 +15240,6 @@
       "content": "aim kya likhu?",
       "timestamp": "2025-03-02T23:07:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1873",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-02T23:08:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1874",
@@ -17564,17 +15575,6 @@
       "metadata": {}
     },
     {
-      "id": "m1911",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-07T07:39:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1912",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -17582,26 +15582,6 @@
       "content": "Sahi hai",
       "timestamp": "2025-03-07T08:07:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m1913",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-07T12:36:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1914",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-07T13:59:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m1915",
@@ -17694,15 +15674,6 @@
       "metadata": {}
     },
     {
-      "id": "m1925",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-08T08:28:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m1926",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -17766,32 +15737,12 @@
       "metadata": {}
     },
     {
-      "id": "m1933",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-22T16:29:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1934",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
       "role": "user",
       "content": "Aisa lag raha h ki tu job waala h... and abhi ghar jaakar apni wife ko belt se pitega😂",
       "timestamp": "2025-03-22T16:30:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1935",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-22T16:45:00Z",
       "metadata": {}
     },
     {
@@ -17903,17 +15854,6 @@
       "metadata": {}
     },
     {
-      "id": "m1948",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-22T17:02:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1949",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -17995,15 +15935,6 @@
       "metadata": {}
     },
     {
-      "id": "m1958",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-24T07:50:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m1959",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -18037,15 +15968,6 @@
       "role": "user",
       "content": ".",
       "timestamp": "2025-03-30T19:26:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m1963",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-03-31T13:39:00Z",
       "metadata": {}
     },
     {
@@ -18265,50 +16187,6 @@
       "metadata": {}
     },
     {
-      "id": "m1988",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-12T09:23:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1989",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-12T09:23:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1990",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-12T09:23:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m1991",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-12T09:23:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m1992",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -18480,17 +16358,6 @@
       "metadata": {}
     },
     {
-      "id": "m2011",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-23T14:25:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m2012",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -18500,17 +16367,6 @@
       "metadata": {}
     },
     {
-      "id": "m2013",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-23T15:45:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m2014",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -18518,26 +16374,6 @@
       "content": "SAXENAAA",
       "timestamp": "2025-04-26T09:00:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m2015",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-26T09:00:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2016",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-26T09:00:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m2017",
@@ -18792,96 +16628,6 @@
       "metadata": {}
     },
     {
-      "id": "m2045",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-28T04:04:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2046",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-28T08:04:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2047",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-28T10:25:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2048",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-28T10:27:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2049",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-28T10:28:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2050",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-28T10:28:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2051",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-28T10:29:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2052",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-04-28T10:29:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2053",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-05-13T12:57:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2054",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-06-15T19:10:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m2055",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -18988,17 +16734,6 @@
       "content": "tereko dev/ml mila?",
       "timestamp": "2025-07-03T19:16:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m2067",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-07-03T19:18:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m2068",
@@ -19327,17 +17062,6 @@
       "metadata": {}
     },
     {
-      "id": "m2104",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-07-03T19:39:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m2105",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -19410,26 +17134,6 @@
       "metadata": {}
     },
     {
-      "id": "m2113",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-07-04T12:52:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2114",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-07-06T22:42:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m2115",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -19437,37 +17141,6 @@
       "content": "bhai bhej sacchi 🤣",
       "timestamp": "2025-07-26T20:24:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m2116",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-04T15:31:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2117",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-04T15:31:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m2118",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-04T15:31:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m2119",
@@ -19607,24 +17280,6 @@
       "metadata": {}
     },
     {
-      "id": "m2134",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-09T20:16:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2135",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-11T12:36:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m2136",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -19643,57 +17298,12 @@
       "metadata": {}
     },
     {
-      "id": "m2138",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-13T08:44:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2139",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-13T08:46:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2140",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-13T08:49:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2141",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-13T09:11:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m2142",
       "sender_id": "u1",
       "sender_name": "Anupam",
       "role": "user",
       "content": "callback kar",
       "timestamp": "2025-08-13T22:01:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2143",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-13T22:06:00Z",
       "metadata": {}
     },
     {
@@ -19713,26 +17323,6 @@
       "content": "https://youtu.be/aoCIoumbWQY?si=y2mKX9KpYL0w2p79",
       "timestamp": "2025-08-13T22:46:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m2146",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-15T20:17:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2147",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-08-15T20:22:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m2148",
@@ -19823,28 +17413,6 @@
       "content": "You deleted this message",
       "timestamp": "2025-09-07T16:23:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m2158",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-09-09T21:55:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m2159",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-09-16T20:40:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m2160",
@@ -20025,17 +17593,6 @@
       "content": "kaafi log usme galati karte h",
       "timestamp": "2025-09-16T22:58:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m2180",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-09-16T23:00:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m2181",
@@ -20326,15 +17883,6 @@
       "metadata": {}
     },
     {
-      "id": "m2213",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-11-20T20:57:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m2214",
       "sender_id": "u1",
       "sender_name": "Anupam",
@@ -20396,28 +17944,6 @@
       "content": "bol",
       "timestamp": "2025-12-01T19:04:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m2221",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-12-01T19:05:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m2222",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-12-01T19:05:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m2223",
@@ -20510,17 +18036,6 @@
       "metadata": {}
     },
     {
-      "id": "m2233",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-12-01T19:10:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
       "id": "m2234",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
@@ -20564,50 +18079,6 @@
       "content": "https://meet.google.com/fbu-iokq-etc",
       "timestamp": "2025-12-01T19:11:00Z",
       "metadata": {}
-    },
-    {
-      "id": "m2239",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-12-01T19:18:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m2240",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-12-01T19:23:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m2241",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-12-01T19:34:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
-    },
-    {
-      "id": "m2242",
-      "sender_id": "u2",
-      "sender_name": "Aakarshit",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-12-01T19:48:00Z",
-      "metadata": {
-        "media": "omitted"
-      }
     },
     {
       "id": "m2243",
@@ -20715,15 +18186,6 @@
       "role": "user",
       "content": "https://x.com/i/status/2000284583821222314",
       "timestamp": "2025-12-15T18:15:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2255",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2025-12-21T12:17:00Z",
       "metadata": {}
     },
     {
@@ -20862,39 +18324,12 @@
       "metadata": {}
     },
     {
-      "id": "m2271",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2026-02-04T09:53:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2272",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2026-02-05T09:02:00Z",
-      "metadata": {}
-    },
-    {
       "id": "m2273",
       "sender_id": "u2",
       "sender_name": "Aakarshit",
       "role": "user",
       "content": "https://www.instagram.com/reel/DUPh1qsiEob/?igsh=bnNjMzF0dGt6dnp2",
       "timestamp": "2026-02-11T14:50:00Z",
-      "metadata": {}
-    },
-    {
-      "id": "m2274",
-      "sender_id": "u1",
-      "sender_name": "Anupam",
-      "role": "user",
-      "content": "",
-      "timestamp": "2026-02-23T13:46:00Z",
       "metadata": {}
     }
   ]

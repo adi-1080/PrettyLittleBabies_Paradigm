@@ -1,9 +1,9 @@
 """
-agents/strategist.py — Agent 2: The Strategist
+agents/strategist.py — Agent 2: The Social Strategist
 
-Compares behavioral fingerprints against the current date to calculate
-"Relationship Decay" scores. Uses initiation rate, emoji density, and
-response patterns for context-aware decisions — not just silence duration.
+Value Mapping: compares current conversation window against the
+Historian's baseline DNA to classify each relationship as
+Active / Stagnant / Debt and recommend Reaction / Nudge / Deep_Reply.
 """
 
 import json
@@ -12,99 +12,103 @@ from datetime import datetime, timezone
 from langchain_core.messages import SystemMessage, HumanMessage
 
 from config import llm
-from state import AgentState, RelationshipDecay
+from save_collection import save_collection, load_collection
+from state import AgentState, StrategyVerdict, StrategyVerdictList, FeedbackEntry
 
 
-# ── System Prompt ──────────────────────────────────────────────────────────
-STRATEGIST_SYSTEM_PROMPT = """You are **The Strategist** — an expert in relationship-health analytics
-who goes far beyond simple "days since last message" calculations.
+STRATEGIST_SYSTEM_PROMPT = """You are **The Social Strategist** — an expert in relationship-health
+analytics who goes far beyond "days since last message."
 
-You will receive:
-1. Behavioral Fingerprints (ParticipantProfiles) from the Research Agent.
-2. The last-message timestamps per participant.
-3. Today's date.
+You receive:
+1. Behavioral DNA profiles (from the Historian) for each contact.
+2. The "Current Window" — the last 20-30 messages of the conversation.
+3. Today's date and last-message timestamps.
+4. Past feedback (actions the user previously Rejected — avoid repeating those).
 
-For EACH participant, calculate a **Relationship Decay** score using BOTH
-time-based AND behavioral signals:
+For EACH contact, perform **Value Mapping**:
 
-**Time-based factors (baseline):**
-- Days since last message: +10 per day beyond 7 days of silence.
+**Sentiment Drift:**
+- Compare the current window's tone against the DNA's vibe_description.
+- Is it Warmer, Stable, or Colder?
 
-**Behavioral deviation factors (what makes you special):**
-- If the contact usually initiates (initiation_rate > 0.5) but hasn't
-  messaged in a while → they might be waiting for YOU. Increase priority.
-- If your last message was unusually short or lacked emojis compared to
-  your usual typing_style → you may be "accidentally ghosting". Note this.
-- If the contact is a "Batch Replier" and hasn't sent a batch recently
-  → they're likely busy, not disengaged. Reduce score slightly.
-- Factor in sentiment_tone: a "Brief & curt" person going silent is less
-  alarming than an "Enthusiastic" person going quiet.
+**Social Debt Detection:**
+- Does the user (the owner) owe a reply?
+- Deep Debt: a question was asked and not answered.
+- Shallow Debt: a meme, link, or statement was sent with no response.
 
-Return a JSON **array** of objects with these keys:
+**Urgency Assessment:**
+- Factor in the contact's comm_style (Batcher vs Streamer).
+- A Batcher going quiet is less alarming than a Streamer going silent.
+- Factor in reciprocity_ratio: if they usually initiate but haven't → they may be waiting.
 
-- "contact_name"  : (str)  the participant's name
-- "decay_score"   : (int)  0–100.  0 = strong bond, 100 = ghosted.
-- "risk_factor"   : (str)  detailed human-readable reason referencing
-                    SPECIFIC behavioral traits, e.g. "Aakarshit usually
-                    initiates 63% of conversations and uses emojis heavily,
-                    but you haven't replied in 5 days — possible accidental ghosting."
-- "is_priority"   : (bool) true if decay_score >= 60.
+**Decision Rules:**
+- IF conversation is active AND vibe is good → recommended_action: "Reaction"
+- IF conversation stalled > 3 days AND last message was a statement → "Nudge"
+- IF a question was asked > 24 hours ago with no reply → "Deep_Reply"
+- IF the contact is a Batcher and hasn't sent a batch recently → reduce priority (less alarming)
 
-Return ONLY the JSON array — no markdown fences, no explanation.
+**Anomaly Awareness:**
+- If the DNA includes anomalies (e.g. latency spike, emoji drop), reference them.
+
+Return a StrategyVerdictList containing one verdict per contact, sorted by priority (highest first).
 """
 
 
 def strategist_node(state: AgentState) -> dict:
-    """
-    LangGraph node that invokes the Strategist agent.
-
-    Reads   : state["messages"], state["profiles"]
-    Writes  : {"alerts": List[RelationshipDecay]}
-    """
-    messages = state["messages"]
     profiles = state["profiles"]
+    messages = state["messages"]
 
     now = datetime.now(timezone.utc)
 
-    # Build a lookup of the most recent message timestamp per participant
+    window = messages[-30:]
+    window_text = "\n".join(
+        f"[{m.timestamp.isoformat()}] {m.sender_name}: {m.content}"
+        for m in window if m.content.strip()
+    )
+
     last_seen: dict[str, datetime] = {}
     for msg in messages:
-        ts = msg.timestamp
-        if msg.sender_name not in last_seen or ts > last_seen[msg.sender_name]:
-            last_seen[msg.sender_name] = ts
+        if msg.sender_name not in last_seen or msg.timestamp > last_seen[msg.sender_name]:
+            last_seen[msg.sender_name] = msg.timestamp
 
-    # Prepare context for the LLM
-    profiles_json = json.dumps(
-        [p.model_dump() for p in profiles], indent=2, default=str
-    )
-    last_seen_json = json.dumps(
-        {name: ts.isoformat() for name, ts in last_seen.items()}, indent=2
-    )
+    feedback_history = load_collection("feedback", FeedbackEntry)
+    rejected = [
+        f"{f.contact_name}: {f.action_type}" for f in feedback_history if f.decision == "Rejected"
+    ]
 
-    response = llm.invoke([
+    profiles_json = json.dumps([p.model_dump() for p in profiles], indent=2, default=str)
+    last_seen_json = json.dumps({n: ts.isoformat() for n, ts in last_seen.items()}, indent=2)
+
+    feedback_context = ""
+    if rejected:
+        feedback_context = f"\n\nPreviously REJECTED actions (do NOT repeat these):\n" + "\n".join(f"- {r}" for r in rejected)
+
+    structured_llm = llm.with_structured_output(StrategyVerdictList)
+
+    result = structured_llm.invoke([
         SystemMessage(content=STRATEGIST_SYSTEM_PROMPT),
         HumanMessage(content=(
             f"Today's date: {now.isoformat()}\n\n"
-            f"Behavioral Fingerprints:\n{profiles_json}\n\n"
+            f"Behavioral DNA Profiles:\n{profiles_json}\n\n"
+            f"Current Window (last {len(window)} messages):\n{window_text}\n\n"
             f"Last-message timestamps:\n{last_seen_json}"
+            f"{feedback_context}"
         )),
     ])
 
-    # Parse response
-    raw = response.content.strip()
-    if raw.startswith("```"):
-        raw = raw.split("\n", 1)[1]
-    if raw.endswith("```"):
-        raw = raw.rsplit("```", 1)[0]
-    raw = raw.strip()
+    verdicts = result.verdicts
+    verdicts.sort(key=lambda v: v.priority, reverse=True)
 
-    alerts_data = json.loads(raw)
-    alerts = [RelationshipDecay(**a) for a in alerts_data]
+    print(f"\n📊  Strategist: {len(verdicts)} verdict(s), priority-sorted:")
+    for v in verdicts:
+        icon = {"Reaction": "💚", "Nudge": "💛", "Deep_Reply": "🔴"}.get(v.recommended_action, "⚪")
+        print(f"   {icon} {v.contact_name} — P{v.priority} [{v.state}] → {v.recommended_action}")
+        print(f"      Drift: {v.sentiment_drift} | Debt: {v.debt_type}")
+        print(f"      Reason: {v.reasoning}")
+        if v.anomalies:
+            for a in v.anomalies:
+                print(f"      ⚠️  {a}")
 
-    print(f"\n📊  Strategist produced {len(alerts)} decay alert(s).")
-    for a in alerts:
-        flag = "🚨" if a.is_priority else "✅"
-        print(f"   {flag} {a.contact_name} — score {a.decay_score}/100")
-        print(f"      Reason: {a.risk_factor}")
+    save_collection("strategist_verdicts", verdicts)
+    return {"verdicts": verdicts}
 
-    return {"alerts": alerts}

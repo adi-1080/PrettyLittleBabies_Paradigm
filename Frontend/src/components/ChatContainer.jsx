@@ -1,10 +1,13 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { formatMessageTime } from "../lib/utils";
 import { useAuthStore } from "../store/useAuthStore";
 import { useChatStore } from "../store/useChatStore";
+import { useAutopilotStore } from "../store/useAutopilotStore";
 import ChatHeader from "./ChatHeader";
 import MessageInput from "./MessageInput";
 import MessageSkeleton from "./skeletons/MessageSkeleton";
+import { Check, X, Copy } from "lucide-react";
+import toast from "react-hot-toast";
 
 const ChatContainer = () => {
   const {
@@ -17,11 +20,15 @@ const ChatContainer = () => {
   } = useChatStore();
 
   const { authUser } = useAuthStore();
+  const { actions, verdicts, fetchAll } = useAutopilotStore();
   const messageEndRef = useRef(null);
+  const [nudgeDismissed, setNudgeDismissed] = useState(false);
 
   useEffect(() => {
     getMessages(selectedUser._id);
     subscribeToMessages();
+    fetchAll();
+    setNudgeDismissed(false);
 
     return () => unsubscribeToMessages();
   }, [
@@ -29,6 +36,7 @@ const ChatContainer = () => {
     getMessages,
     subscribeToMessages,
     unsubscribeToMessages,
+    fetchAll,
   ]);
 
   useEffect(() => {
@@ -36,6 +44,32 @@ const ChatContainer = () => {
       messageEndRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [messages]);
+
+  // Find the action for this contact
+  const contactAction = actions.find(
+    (a) => a.contact_name === selectedUser.fullName
+  );
+  const contactVerdict = verdicts.find(
+    (v) => v.contact_name === selectedUser.fullName
+  );
+
+  const showNudge = contactAction && !nudgeDismissed;
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(contactAction.quick_copy);
+    toast.success("Copied to clipboard!");
+  };
+
+  const handleAccept = () => {
+    navigator.clipboard.writeText(contactAction.quick_copy);
+    toast.success("Action accepted & copied!");
+    setNudgeDismissed(true);
+  };
+
+  const handleReject = () => {
+    toast("Action dismissed", { icon: "👋" });
+    setNudgeDismissed(true);
+  };
 
   if (isMessagesLoading) {
     return (
@@ -57,7 +91,7 @@ const ChatContainer = () => {
             }`}
             ref={messageEndRef}
           >
-            <div className=" chat-image avatar">
+            <div className="chat-image avatar">
               <div className="size-10 rounded-full border">
                 <img
                   src={
@@ -74,7 +108,7 @@ const ChatContainer = () => {
                 {formatMessageTime(message.createdAt)}
               </time>
             </div>
-            <div className="chat-bubble flex flex-col">
+            <div className={`chat-bubble flex flex-col ${message.senderID === authUser._id ? "chat-bubble-primary" : ""}`}>
               {message.image && (
                 <img
                   src={message.image}
@@ -87,6 +121,51 @@ const ChatContainer = () => {
           </div>
         ))}
       </div>
+
+      {/* Nudge Bar */}
+      {showNudge && (
+        <div className="border-t border-base-300 bg-base-200 px-4 py-2">
+          <div className="flex items-center gap-2">
+            <span
+              className={`badge badge-sm ${
+                contactAction.action_type === "Reaction"
+                  ? "badge-success"
+                  : contactAction.action_type === "Nudge"
+                  ? "badge-warning"
+                  : "badge-error"
+              }`}
+            >
+             
+              {contactAction.action_type}
+            </span>
+            <div className="flex-1 text-sm font-mono truncate bg-base-300 rounded px-2 py-1">
+              {contactAction.quick_copy}
+            </div>
+            <button
+              className="btn btn-ghost btn-xs"
+              title="Copy"
+              onClick={handleCopy}
+            >
+              <Copy className="w-3.5 h-3.5" />
+            </button>
+            <button
+              className="btn btn-success btn-xs"
+              title="Accept"
+              onClick={handleAccept}
+            >
+              <Check className="w-3.5 h-3.5" />
+            </button>
+            <button
+              className="btn btn-error btn-xs"
+              title="Reject"
+              onClick={handleReject}
+            >
+              <X className="w-3.5 h-3.5" />
+            </button>
+          </div>
+        </div>
+      )}
+
       <MessageInput />
     </div>
   );
